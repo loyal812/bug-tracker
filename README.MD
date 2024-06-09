@@ -36,8 +36,8 @@ The engineering team can view, update the status, and add comments to the bugs. 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/bug-tracker.git
-   cd bug-tracker
+   git clone https://github.com/loyal812/bug-report.git
+   cd bug-report
    ```
 
 2. Install dependencies:
