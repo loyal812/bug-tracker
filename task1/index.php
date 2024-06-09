@@ -44,9 +44,8 @@
                     var not = document.getElementById('notification');
                     if (data.length != 0) {
                         var com = data[data.length - 1];
-                        if (com.status != sts) alert("Status : " + com.status + "\n" + "Comment : " + com.comment);
                         sts = com.status;
-                        not.innerHTML = `<div class="bg-white p-4"><p class="text-4xl">Comment</p><p class="text-xl text-black mt-6">${com.comment}</p></div>`;
+                        not.innerHTML = `<div class="bg-white p-4"><p class="text-4xl">Comment(${com.status})</p><p class="text-xl text-black mt-6">${com.comment}</p></div>`;
                     }
                     htmx.process(not);
                 })
