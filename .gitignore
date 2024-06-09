@@ -1,0 +1,54 @@
+# Ignore configuration files that may contain sensitive information
+/config/*.php
+
+# Ignore standard files to exclude
+
+# Composer dependencies
+/vendor/
+
+# Dependency directories (Comment this out if you check in your vendor directory)
+node_modules/
+
+# IDE specific files and directories
+/.idea/
+/.vscode/
+*.sublime-workspace
+
+# log files and directories
+*.log
+log/**/*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Include file with secrets, typically ignored
+/.env
+
+# Cache and session files
+cache/
+sessions/
+
+# User uploaded files (if these are stored locally and not meant for versioning)
+/public/uploads
+
+# Build artifacts
+/build/
+/dist/
+
+# Ignore PHPUnit test reports and coverage data
+/coverage/
+/phpunit.xml
+/test-results.xml
+
+# if using Docker, you might choose to ignore various generated files
+/docker-compose.override.yml
+*.cert
+*.key
+
+# If deploying with Git, ignore deployment scripts and auxiliaries
+/deploy.php
